@@ -11,11 +11,7 @@ Package.onUse(function(api) {
   api.use('coffeescript');
   api.use('email');
   api.use('underscore');
-  api.use([
-    'accounts-base',
-    'accounts-password'
-  ], { weak: true });
-  api.use('cmather:handlebars-server@2.0.0');
+  api.use('astrocoders:handlebars-server');
 
   api.addFiles(
     [
